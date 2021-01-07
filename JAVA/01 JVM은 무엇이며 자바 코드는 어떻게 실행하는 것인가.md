@@ -96,7 +96,7 @@ JVM의 메모리 영역으로 JAVA Application을 수행하기 위해 OS로부�
 
 
 
-![img](img/java-jvm-01.png)
+![](img/java-jvm-01.png)
 
 
 >#### **자바 프로그램 실행과정**
@@ -130,7 +130,7 @@ JVM의 메모리 영역으로 JAVA Application을 수행하기 위해 OS로부�
 ## JVM의 메모리 구조
 
 
-![img](img/java-jvm-02.png)
+![](img/java-jvm-02.png)
 
 
 > JAVA는 멀티 스레드환경으로 모든 스레드는 **Heap과 Meathod** 영역을 공유하게 됩니다.
