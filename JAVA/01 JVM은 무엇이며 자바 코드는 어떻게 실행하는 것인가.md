@@ -96,7 +96,7 @@ JVM의 메모리 영역으로 JAVA Application을 수행하기 위해 OS로부�
 
 
 
-![img](C:\Users\Kiyeon Han\Documents\GIT\TIL\JAVA\01 JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가.assets\java-jvm-01.png)
+![img](img/java-jvm-01.png)
 
 >#### **자바 프로그램 실행과정**
 >
@@ -128,7 +128,7 @@ JVM의 메모리 영역으로 JAVA Application을 수행하기 위해 OS로부�
 
 ## JVM의 메모리 구조
 
-![img](C:\Users\Kiyeon Han\Documents\GIT\TIL\JAVA\01 JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가.assets\java-jvm-02.png)
+![img](img/java-jvm-02.png)
 
 > JAVA는 멀티 스레드환경으로 모든 스레드는 **Heap과 Meathod** 영역을 공유하게 됩니다.
 
@@ -159,5 +159,4 @@ Garbage Collector가 참조되지 않은 메모리를 확인하고 제거하는 
 JAVA 이외의 언어로 작성된 Method의 정보가 저장되는 공간입니다.
 
 JNI(Java Native Interface)를 통해 호출되는 C/C++등의 코드를 수행하기 위한 스택으로 바이트 코드로 저장됩니다.
-
 
